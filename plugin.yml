@@ -1,5 +1,5 @@
 name: "kotlin-env-base-plugin"
-description: Kotlin environment base plugin
+description: Languages environment base plugin
 type: env
 languages: 
   - kotlin
