@@ -4,7 +4,7 @@ import software.amazon.awscdk.core.Construct
 import software.amazon.awscdk.core.Stack
 import software.amazon.awscdk.core.StackProps
 
-class {{inputs.project_name|title|replace(" ", "")}}Stack(scope: Construct?, id: String?, props: StackProps?) : Stack(scope, id, props) {
+class {{computed_inputs.app_class_name}}Stack(scope: Construct?, id: String?, props: StackProps?) : Stack(scope, id, props) {
     init {
         // Code here
     }

@@ -1,0 +1,21 @@
+name: "kotlin-env-base-plugin"
+description: Kotlin environment base plugin
+type: env
+languages: 
+  - kotlin
+tags:
+  - environment
+  - kotlin
+  - container
+inputs:
+  - label: "Application name:"
+    type: text
+    name: "project_name"
+  - label: "Application group id:"
+    type: text
+    name: "project_group_id"
+  - label: "Application version:"
+    type: text
+    name: "project_group_id"
+computedInputs:
+  "app_class_name": "{{inputs.project_name|title|replace(' ', '')}}"
