@@ -1,8 +1,7 @@
 name: "languages-env-base-plugin"
-description: Languages environment base plugin
-type: env
-languages: 
-  - kotlin
+description: "Languages environment base plugin"
+types: 
+  - env
 tags:
   - environment
   - kotlin
