@@ -19,6 +19,6 @@ inputs:
       value: "kotlin"
   - label: "Application version:"
     type: text
-    name: "project_group_id"
+    name: "project_version"
 computedInputs:
   "app_class_name": "{{inputs.project_name|title|replace(' ', '')}}"
