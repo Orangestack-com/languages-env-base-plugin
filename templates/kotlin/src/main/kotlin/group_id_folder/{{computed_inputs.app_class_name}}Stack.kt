@@ -1,4 +1,4 @@
-package {{inputs.project_group_id}}
+package {{project_group_id}}
 
 import software.amazon.awscdk.core.Construct
 import software.amazon.awscdk.core.Stack
