@@ -4,7 +4,7 @@ plugins {
 }
 
 version = "{{inputs.project_version}}"
-group = "{{inputs.project_group_id}}"
+group = "{{project_group_id}}"
 
 repositories {
     mavenCentral()
@@ -32,5 +32,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("{{inputs.project_group_id}}.{{computed_inputs.app_class_name}}Kt")
+    mainClass.set("{{project_group_id}}.{{computed_inputs.app_class_name}}Kt")
 }

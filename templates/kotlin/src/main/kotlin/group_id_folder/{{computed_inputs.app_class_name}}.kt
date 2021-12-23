@@ -1,4 +1,4 @@
-package {{inputs.project_group_id}}
+package {{project_group_id}}
 
 import software.amazon.awscdk.core.App
 import software.amazon.awscdk.core.Environment

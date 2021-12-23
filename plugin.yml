@@ -13,6 +13,7 @@ inputs:
   - label: "Application group id:"
     type: text
     name: "project_group_id"
+    global: true
     condition:
       variable: "language"
       operator: "=="
