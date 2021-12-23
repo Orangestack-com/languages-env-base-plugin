@@ -4,7 +4,7 @@ import software.amazon.awscdk.core.App
 import software.amazon.awscdk.core.Environment
 import software.amazon.awscdk.core.StackProps
 
-const val APP_NAME = "{{inputs.project_name|lower|replace(' ', '-')}}"
+const val APP_NAME = "{{project_name|lower|replace(' ', '-')}}"
 const val APP_PORT = 8080
 
 fun main() {
