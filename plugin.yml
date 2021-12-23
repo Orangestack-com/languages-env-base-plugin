@@ -10,6 +10,7 @@ inputs:
   - label: "Application name:"
     type: text
     name: "project_name"
+    global: true
   - label: "Application group id:"
     type: text
     name: "project_group_id"
