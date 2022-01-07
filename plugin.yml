@@ -23,4 +23,4 @@ inputs:
     type: text
     name: "project_version"
 computedInputs:
-  "app_class_name": "{{project_name|title|replace(' ', '')}}"
+  "app_class_name": "{{project_name|to_camel|replace(' ', '')}}"
